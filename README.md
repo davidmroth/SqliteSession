@@ -1,5 +1,7 @@
 # SqliteSession
-SQLite DB backend for CherryPy sessions
+An SQLite DB backend for CherryPy sessions
+
+
 
 **To use:**
 
