@@ -26,7 +26,7 @@ CHERRYPY_CONFIG = {
 ```
 
 
-Finally, import the session class:
+Finally, in your main CherryPy Server Class, import the SQLite session class:
 
 ```
 from server.db.session import SqliteSession
