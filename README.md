@@ -19,17 +19,18 @@ CHERRYPY_CONFIG = {
 ```
 
 *Relevent lines:*
-'''
+
+```
 'tools.sessions.storage_class' : SqliteSession,
 'tools.sessions.on': True,
-'''
+```
 
 
 Finally, import the session class:
 
-'''
+```
 from server.db.session import SqliteSession
-'''
+```
 
 
 **More info:** http://stackoverflow.com/questions/9811751/anyone-have-code-examples-for-storing-web-sessions-in-mysql-for-cherrypy-3-2-2
